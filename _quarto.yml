@@ -8,6 +8,7 @@ book:
   date: "27/07/2023"
   chapters:
     - index.qmd
+    - paintings-fsci.ipynb
     - paintings.ipynb
     - intro.qmd
     - summary.qmd
