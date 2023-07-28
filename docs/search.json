@@ -7,16 +7,23 @@
     "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
   },
   {
+    "objectID": "paintings.html",
+    "href": "paintings.html",
+    "title": "1  Paintings catalogue",
+    "section": "",
+    "text": "Objective: Make a selection of nine paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.\nThe below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q19930126\nTitle: Battle Painting\nYear: 1650\nCreator: Johann Heinrich Schönfeld\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q19930364\nTitle: Rocky Landscape with Antique Ruins\nYear: 1657\nCreator: Nicolaes Pieterszoon Berchem\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q19930472\nTitle: Riding School Before Ancient Ruins\nYear: 1750\nCreator: Pieter van Bloemen\nCopyright: public domain"
+  },
+  {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "2  Introduction",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "3  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever."
   },
