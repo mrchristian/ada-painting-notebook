@@ -152,7 +152,191 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Objective: Make a selection paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.</p>
 <p>The below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.</p>
-<p>{‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q104412992’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘William Guy Wall’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/New%20York%20from%20the%20Heights%20near%20Brooklyn%20MET%20DT5423.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘54.90.301’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river, boat, landscape art’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q116444817’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river, mountain, waterfall’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q16667013’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Arkhip Kuindzhi’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/1905%20Archip%20Iwanowitsch%20Kuindshi%20Sunset%20Dnieper%20anagoria.JPG’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘1974.100’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘Sun, river, evening, Dnieper, landscape art’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q1913390’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Thomas Eakins’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Schmitt%20in%20a%20Single%20Scull.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘34.92’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘portrait, landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘house, river, man, tree, bridge, boat, landscape, rowing’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19905131’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Claude Monet’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/1891%20Monet%20The%20four%20trees%20anagoria.JPG’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘29.100.110’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river, tree’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19905268’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Georges Seurat’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Gray%20Weather%2C%20Grande%20Jatte%20MET%20DT1945.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘2002.62.3’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘house, river, tree, boat’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19905309’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Gustave Courbet’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/The%20Source%20of%20the%20Loue%20MET%20DT1964.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘29.100.122’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19905328’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Bernardo Bellotto’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Vaprio%20d%27Adda%20MET%20DT4603.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘39.142’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘woman, town, river, man, boat’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19905353’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Claude Monet’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Ice%20Floes%20MET%20DT2158.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘29.100.108’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘winter, river, ice’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19905366’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Camille Pissarro’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Steamboats%20in%20the%20Port%20of%20Rouen.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘58.133’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river, Rouen, boat, port, steamboat’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19905448’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Claude Monet’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A9theuil%20in%20Summer%20MET%20DT1898.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘51.30.3’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘summer, town, river, tree, landscape art’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19906251’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Samuel Scott’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/The%20Building%20of%20Westminster%20Bridge%20MET%20DP169565.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘44.56’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘cathedral, river, bridge, boat, building’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19906270’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Camille Pissarro’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Camille%20Pissarro%20-%20Les%20Ponts%20Boieldieu%20%C3%A0%20Rouen%2C%20matin%2C%20temps%20mouill%C3%A9%201140.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘1980.21.1’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘cityscape’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘city, river, ship, bridge, Rouen, boat, port, chimney’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19911476’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Nicolas Poussin’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Midas%20Washing%20at%20the%20Source%20of%20the%20Pactolus%20MET%20DP123854.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘71.56’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river, child, man, Midas’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19911548’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Théodore Géricault’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Th%C3%A9odore%20G%C3%A9ricault%20-%20Evening%2C%20Landscape%20with%20an%20Aqueduct.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘1989.183’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘aqueduct, river, evening, man, landscape art’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19911635’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Claude Lorrain’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/The%20Ford%20MET%20DP123844.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘28.117’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘woman, river, man, boat, landscape art’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19911677’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Pierre-Henri de Valenciennes’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/The%20Banks%20of%20the%20Rance%2C%20Brittany%20MET%20DP169468.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘2003.42.54’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river, tree’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19911793’}, ‘creatorLabel’: {‘type’: ‘literal’, ‘value’: ‘http://www.wikidata.org/.well-known/genid/412613f48ccb2e3a893a23a2f14d6d9b’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘2003.42.17’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river, landscape art’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19911819’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Paul Cézanne’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20C%C3%A9zanne%20-%20Les%20P%C3%AAcheurs%20%28sc%C3%A8ne%20fantastique%29.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘2001.473’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘genre art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘woman, river, man’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19911853’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Claude Lorrain’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/La%20campi%C3%B1a%20romana%2C1639%2C%20Claude%20Lorrain.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘65.181.12’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘cattle, river, landscape, landscape art’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19911853’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Claude Lorrain’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/La%20campi%C3%B1a%20romana%2C1639%2C%20Claude%20Lorrain.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘65.181.12’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Olantigh’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘cattle, river, landscape, landscape art’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19911975’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Jules Dupré’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Jules%20Dupr%C3%A9%20-%20Vaches%20traversant%20un%20gu%C3%A9%20%281836%29.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘67.213’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘dog, horse, cattle, river, equestrianism, landscape art’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19912124’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Claude Monet’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Rapids%20on%20the%20Petite%20Creuse%20at%20Fresselines%20MET%20DT226477.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘67.187.88’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river, Petite Creuse’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19912126’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Claude Monet’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/The%20Houses%20of%20Parliament%20%28Effect%20of%20Fog%29%20MET%20DT1893.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘56.135.6’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river, boat, building, Palace of Westminster’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19912128’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Claude Monet’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Claude%20Monet%20-%20%C3%8Ele%20aux%20Fleurs%20near%20V%C3%A9theuil.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘56.135.5’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river, landscape art’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19912296’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Philip de Koninck’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Wide%20River%20Landscape%20MET%20DP146493.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘63.43.2’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ‘landscape art’}, ‘depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river, boat, landscape art’}} {‘painting’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19912384’}, ‘creatorLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Claude Monet’}, ‘image’: {‘type’: ‘uri’, ‘value’: ‘http://commons.wikimedia.org/wiki/Special:FilePath/Morning%20on%20the%20Seine%20near%20Giverny%20MET%20DT1903.jpg’}, ‘copyright_status’: {‘type’: ‘uri’, ‘value’: ‘http://www.wikidata.org/entity/Q19652’}, ‘inventory_number’: {‘type’: ‘literal’, ‘value’: ‘56.135.4’}, ‘made_from_materialLabels’: {‘type’: ‘literal’, ‘value’: ‘oil paint, canvas’}, ‘locationLabel’: {‘xml:lang’: ‘en’, ‘type’: ‘literal’, ‘value’: ‘Metropolitan Museum of Art’}, ‘genreLabels’: {‘type’: ‘literal’, ‘value’: ’‘}, ’depictsLabels’: {‘type’: ‘literal’, ‘value’: ‘river, morning, tree’}}</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q104412992">http://www.wikidata.org/entity/Q104412992</a></p>
+<p>Creator: William Guy Wall Inventory number: 54.90.301</p>
+<p>Made from material(s):</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: river, boat, landscape art</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-2.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q116444817">http://www.wikidata.org/entity/Q116444817</a></p>
+<p>Made from material(s):</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: river, mountain, waterfall</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q16667013">http://www.wikidata.org/entity/Q16667013</a></p>
+<p>Creator: Arkhip Kuindzhi Inventory number: 1974.100</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: Sun, river, evening, Dnieper, landscape art</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-4.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q1913390">http://www.wikidata.org/entity/Q1913390</a></p>
+<p>Creator: Thomas Eakins Inventory number: 34.92</p>
+<p>Made from material(s): oil paint</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): portrait, landscape art</p>
+<p>Depicts: house, river, man, tree, bridge, boat, landscape, rowing</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-6.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19905131">http://www.wikidata.org/entity/Q19905131</a></p>
+<p>Creator: Claude Monet Inventory number: 29.100.110</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s):</p>
+<p>Depicts: river, tree</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-8.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19905268">http://www.wikidata.org/entity/Q19905268</a></p>
+<p>Creator: Georges Seurat Inventory number: 2002.62.3</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: house, river, tree, boat</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-10.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19905309">http://www.wikidata.org/entity/Q19905309</a></p>
+<p>Creator: Gustave Courbet Inventory number: 29.100.122</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: river</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-12.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19905328">http://www.wikidata.org/entity/Q19905328</a></p>
+<p>Creator: Bernardo Bellotto Inventory number: 39.142</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s):</p>
+<p>Depicts: woman, town, river, man, boat</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-14.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19905353">http://www.wikidata.org/entity/Q19905353</a></p>
+<p>Creator: Claude Monet Inventory number: 29.100.108</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s):</p>
+<p>Depicts: winter, river, ice</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-16.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19905366">http://www.wikidata.org/entity/Q19905366</a></p>
+<p>Creator: Camille Pissarro Inventory number: 58.133</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s):</p>
+<p>Depicts: river, Rouen, boat, port, steamboat</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-18.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19905448">http://www.wikidata.org/entity/Q19905448</a></p>
+<p>Creator: Claude Monet Inventory number: 51.30.3</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: summer, town, river, tree, landscape art</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-20.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19906251">http://www.wikidata.org/entity/Q19906251</a></p>
+<p>Creator: Samuel Scott Inventory number: 44.56</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s):</p>
+<p>Depicts: cathedral, river, bridge, boat, building</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-22.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19906270">http://www.wikidata.org/entity/Q19906270</a></p>
+<p>Creator: Camille Pissarro Inventory number: 1980.21.1</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): cityscape</p>
+<p>Depicts: city, river, ship, bridge, Rouen, boat, port, chimney</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-24.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19911476">http://www.wikidata.org/entity/Q19911476</a></p>
+<p>Creator: Nicolas Poussin Inventory number: 71.56</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s):</p>
+<p>Depicts: river, child, man, Midas</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-26.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19911548">http://www.wikidata.org/entity/Q19911548</a></p>
+<p>Creator: Théodore Géricault Inventory number: 1989.183</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: aqueduct, river, evening, man, landscape art</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-28.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19911635">http://www.wikidata.org/entity/Q19911635</a></p>
+<p>Creator: Claude Lorrain Inventory number: 28.117</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: woman, river, man, boat, landscape art</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-30.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19911677">http://www.wikidata.org/entity/Q19911677</a></p>
+<p>Creator: Pierre-Henri de Valenciennes Inventory number: 2003.42.54</p>
+<p>Made from material(s):</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s):</p>
+<p>Depicts: river, tree</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-32.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19911793">http://www.wikidata.org/entity/Q19911793</a></p>
+<p>Creator: http://www.wikidata.org/.well-known/genid/412613f48ccb2e3a893a23a2f14d6d9b Inventory number: 2003.42.17</p>
+<p>Made from material(s):</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: river, landscape art</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19911819">http://www.wikidata.org/entity/Q19911819</a></p>
+<p>Creator: Paul Cézanne Inventory number: 2001.473</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): genre art</p>
+<p>Depicts: woman, river, man</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-34.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19911853">http://www.wikidata.org/entity/Q19911853</a></p>
+<p>Creator: Claude Lorrain Inventory number: 65.181.12</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: cattle, river, landscape, landscape art</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-36.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19911853">http://www.wikidata.org/entity/Q19911853</a></p>
+<p>Creator: Claude Lorrain Inventory number: 65.181.12</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Olantigh</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: cattle, river, landscape, landscape art</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-38.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19911975">http://www.wikidata.org/entity/Q19911975</a></p>
+<p>Creator: Jules Dupré Inventory number: 67.213</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: dog, horse, cattle, river, equestrianism, landscape art</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-40.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19912124">http://www.wikidata.org/entity/Q19912124</a></p>
+<p>Creator: Claude Monet Inventory number: 67.187.88</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s):</p>
+<p>Depicts: river, Petite Creuse</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-42.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19912126">http://www.wikidata.org/entity/Q19912126</a></p>
+<p>Creator: Claude Monet Inventory number: 56.135.6</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s):</p>
+<p>Depicts: river, boat, building, Palace of Westminster</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-44.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19912128">http://www.wikidata.org/entity/Q19912128</a></p>
+<p>Creator: Claude Monet Inventory number: 56.135.5</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: river, landscape art</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-46.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19912296">http://www.wikidata.org/entity/Q19912296</a></p>
+<p>Creator: Philip de Koninck Inventory number: 63.43.2</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s): landscape art</p>
+<p>Depicts: river, boat, landscape art</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-48.png" class="img-fluid"></p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q19912384">http://www.wikidata.org/entity/Q19912384</a></p>
+<p>Creator: Claude Monet Inventory number: 56.135.4</p>
+<p>Made from material(s): oil paint, canvas</p>
+<p>Location: Metropolitan Museum of Art</p>
+<p>Genre(s):</p>
+<p>Depicts: river, morning, tree</p>
+<p><img src="paintings-fsci_files/figure-html/cell-2-output-50.png" class="img-fluid"></p>
 
 
 
