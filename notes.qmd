@@ -52,7 +52,7 @@ bibliography: references.bib
 comments:
   hypothesis: true
 
-theme: darkly  
+theme: darkly
 
 format:
   html:
