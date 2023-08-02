@@ -31,9 +31,11 @@ format:
     number-sections: false
   pdf:
     documentclass: book
-docx: 
+  docx:
     toc: true
-epub: 
+    number-sections: true
+    highlight-style: github
+  epub: 
     toc: true   
 
 
