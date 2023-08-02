@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 book:
-  title: "FSCI Painting Exhibition"
-  author: "Simon Worthington"
-  date: "02/08/2023"
+  title: "Ada painting notebook"
+  author: "Jane Doe"
+  date: "27/07/2023"
   chapters:
     - index.qmd
     - paintings-fsci.ipynb
@@ -14,29 +14,10 @@ book:
     - summary.qmd
     - references.qmd
 
-  repo-url: https://github.com/mrchristian/ada-painting-notebook
-  repo-actions: [edit]
-  downloads: [pdf,docx,epub]
-  cover-image: cover.png
-
 bibliography: references.bib
-
-comments:
-  hypothesis: true
-
-theme: darkly  
 
 format:
   html:
-    number-sections: false
+    theme: cosmo
   pdf:
-    documentclass: book
-  docx:
-    toc: true
-    number-sections: true
-    highlight-style: github
-  epub: 
-    toc: true   
-
-
-    
+    documentclass: scrreprt

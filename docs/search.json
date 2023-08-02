@@ -2,35 +2,35 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "FSCI Painting Exhibition",
+    "title": "Ada painting notebook",
     "section": "",
     "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
   },
   {
     "objectID": "paintings-fsci.html",
     "href": "paintings-fsci.html",
-    "title": "Paintings catalogue FSCI",
+    "title": "1  Paintings catalogue FSCI",
     "section": "",
-    "text": "Objective: Make a selection paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.\nThe below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q116968112\nMade from material(s):\nLocation: Alte Pinakothek\nGenre(s): mythological painting\nDepicts: Cupid, Venus\nWikidata link: http://www.wikidata.org/entity/Q22116973\nCreator: Franz von Lenbach\nInventory number: 11428\nMade from material(s): oil paint, canvas\nLocation: Bavarian State Painting Collections\nGenre(s): mythological painting\nDepicts: Venus\n\nWikidata link: http://www.wikidata.org/entity/Q2393412\nCreator: Jacopo Tintoretto\nInventory number: 9257\nMade from material(s): oil paint, canvas\nLocation: Alte Pinakothek\nGenre(s): nude, mythological painting\nDepicts: tessellation, bed sheet, body armor, crown glass, specular reflection, loincloth, sitting, pubic hair removal, standing, lying, mirror image, male toplessness, titian hair, drapery, clothed male, naked female, white hair, cushion, Mars, dog, woman, boy, Vulcan, Cupid, blanket, man, breast, nudity, waist-length hair, mirror, window, Aphrodite, Ares, bed, beard, wall, navel, Hephaestus, Venus, Eros, mattress, bedroom, bracelet\n\nWikidata link: http://www.wikidata.org/entity/Q29477226\nCreator: Jacopo Amigoni\nInventory number: 2857\nMade from material(s): oil paint, canvas\nLocation: Bavarian State Painting Collections\nGenre(s): mythological painting\nDepicts: Venus, Adonis\n\nWikidata link: http://www.wikidata.org/entity/Q29480565\nCreator: Heinrich Bollandt\nInventory number: 5465\nMade from material(s): oil paint, lime panel\nLocation: Alte Pinakothek\nGenre(s): mythological painting\nDepicts: Venus\n\nWikidata link: http://www.wikidata.org/entity/Q29871397\nCreator: Balthasar Beschey\nInventory number: 6680\nMade from material(s): wood, oil paint\nLocation: Alte Pinakothek\nGenre(s): mythological painting\nDepicts: Venus, Adonis\n\nWikidata link: http://www.wikidata.org/entity/Q29951564\nCreator: http://www.wikidata.org/.well-known/genid/1bdf5fd527d403ccabd72fdd0ac1f6d7\nInventory number: 13261\nMade from material(s):\nLocation: Alte Pinakothek\nGenre(s): mythological painting\nDepicts: Cupid, Venus"
+    "text": "Objective: Make a selection paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.\nThe below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q104412992\nCreator: William Guy Wall\nInventory number: 54.90.301\nMade from material(s):\nLocation: Metropolitan Museum of Art\nGenre(s): landscape art\nDepicts: river, boat, landscape art\n\nWikidata link: http://www.wikidata.org/entity/Q116444817\nMade from material(s):\nGenre(s): landscape art\nDepicts: river, mountain, waterfall\nWikidata link: http://www.wikidata.org/entity/Q16667013\nCreator: Arkhip Kuindzhi\nInventory number: 1974.100\nMade from material(s): oil paint, canvas\nLocation: Metropolitan Museum of Art\nGenre(s): landscape art\nDepicts: Sun, river, evening, Dnieper, landscape art\n\nWikidata link: http://www.wikidata.org/entity/Q1913390\nCreator: Thomas Eakins\nInventory number: 34.92\nMade from material(s): oil paint\nLocation: Metropolitan Museum of Art\nGenre(s): portrait, landscape art\nDepicts: house, river, man, tree, bridge, boat, landscape, rowing\n\nWikidata link: http://www.wikidata.org/entity/Q19905131\nCreator: Claude Monet\nInventory number: 29.100.110\nMade from material(s): oil paint, canvas\nLocation: Metropolitan Museum of Art\nGenre(s):\nDepicts: river, tree\n\nWikidata link: http://www.wikidata.org/entity/Q19905268\nCreator: Georges Seurat\nInventory number: 2002.62.3\nMade from material(s): oil paint, canvas\nLocation: Metropolitan Museum of Art\nGenre(s): landscape art\nDepicts: house, river, tree, boat\n\nWikidata link: http://www.wikidata.org/entity/Q19905309\nCreator: Gustave Courbet\nInventory number: 29.100.122\nMade from material(s): oil paint, canvas\nLocation: Metropolitan Museum of Art\nGenre(s): landscape art\nDepicts: river"
   },
   {
     "objectID": "paintings.html",
     "href": "paintings.html",
-    "title": "Paintings catalogue - benchmark",
+    "title": "2  Paintings catalogue - benchmark",
     "section": "",
     "text": "Objective: Make a selection of nine paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.\nThe below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q203259\nTitle: The Fall of the Damned\nYear: 1621\nCreator: Peter Paul Rubens\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q568100\nTitle: The Descent from the Cross\nYear: 1633\nCreator: Rembrandt\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q571416\nTitle: Honeysuckle Bower\nYear: 1609\nCreator: Peter Paul Rubens\nCopyright: public domain"
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "Introduction",
+    "title": "3  Introduction",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "Summary",
+    "title": "4  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever."
   },
